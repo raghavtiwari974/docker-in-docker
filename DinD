@@ -1,0 +1,4 @@
+docker run --privileged --name dind-test -d docker:dind
+docker exec -it dind-test sh
+docker info
+docker run hello-world
